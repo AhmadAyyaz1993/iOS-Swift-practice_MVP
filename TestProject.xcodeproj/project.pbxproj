@@ -14,6 +14,8 @@
 		E06322AD210F6ADB0031F298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06322AB210F6ADB0031F298 /* LaunchScreen.storyboard */; };
 		E06322B8210F6ADB0031F298 /* TestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06322B7210F6ADB0031F298 /* TestProjectTests.swift */; };
 		E06322C3210F6ADB0031F298 /* TestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06322C2210F6ADB0031F298 /* TestProjectUITests.swift */; };
+		E06322D3210F6EC20031F298 /* download_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E06322D2210F6EC20031F298 /* download_image.jpg */; };
+		E06B21D9211F10C900B58195 /* RegistrationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06B21D8211F10C900B58195 /* RegistrationPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E06322BE210F6ADB0031F298 /* TestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E06322C2210F6ADB0031F298 /* TestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectUITests.swift; sourceTree = "<group>"; };
 		E06322C4210F6ADB0031F298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E06322D2210F6EC20031F298 /* download_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download_image.jpg; sourceTree = "<group>"; };
+		E06B21D8211F10C900B58195 /* RegistrationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		E06322A1210F6ADB0031F298 /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
+				E06322D2210F6EC20031F298 /* download_image.jpg */,
 				E06322A2210F6ADB0031F298 /* AppDelegate.swift */,
 				E06322A4210F6ADB0031F298 /* ViewController.swift */,
 				E06322A6210F6ADB0031F298 /* Main.storyboard */,
 				E06322A9210F6ADB0031F298 /* Assets.xcassets */,
 				E06322AB210F6ADB0031F298 /* LaunchScreen.storyboard */,
 				E06322AE210F6ADB0031F298 /* Info.plist */,
+				E06B21D8211F10C900B58195 /* RegistrationPresenter.swift */,
 			);
 			path = TestProject;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 				E06322AD210F6ADB0031F298 /* LaunchScreen.storyboard in Resources */,
 				E06322AA210F6ADB0031F298 /* Assets.xcassets in Resources */,
 				E06322A8210F6ADB0031F298 /* Main.storyboard in Resources */,
+				E06322D3210F6EC20031F298 /* download_image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E06322A5210F6ADB0031F298 /* ViewController.swift in Sources */,
+				E06B21D9211F10C900B58195 /* RegistrationPresenter.swift in Sources */,
 				E06322A3210F6ADB0031F298 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
