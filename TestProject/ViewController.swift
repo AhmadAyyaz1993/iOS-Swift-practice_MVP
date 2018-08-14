@@ -25,12 +25,15 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
     }
 
-
+    
     @IBAction func registerButton(_ sender: Any) {
         self.presenter?.registerUser(email: emailField.text!, password: passwordField.text!, fullName: fullNameField.text!, phoneNumber: phoneNumberField.text!)
     }
+    
+
     func alert() -> UIAlertController {
         let alert = UIAlertController(title: nil, message: "Please wait...", preferredStyle: .alert)
         
@@ -55,6 +58,7 @@ extension ViewController: RegistrationDelegate
     }
     func registrationDidSucceed(){
         print("succeed")
+        performSegue(withIdentifier: "mySegue", sender: self)
     }
     func registrationDidFailed(message: String){
         print(message)
